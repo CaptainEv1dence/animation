@@ -5,18 +5,31 @@
 #include <vector>
 #include <cmath>
 #include <algorithm>
+#include <string>
 
 
 #ifndef ANIMATION_ANIMATION_H
 #define ANIMATION_ANIMATION_H
 
 
+class Animation {
+protected:
+
+    string country_of_origin;
+
+    unsigned int for_idiots_percentage;
+
+    unsigned int year_of_vipusk;
+
+public:
 
 
 
+    bool is_cringe();
 
+    bool would_you_watch_it();
 
-
+};
 
 
 
