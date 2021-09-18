@@ -1,6 +1,6 @@
 #include <iostream>
 
-class DiscreteState {
+class Animation {
 private:
     int const state;
 
