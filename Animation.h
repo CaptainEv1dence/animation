@@ -24,10 +24,9 @@ protected:
 public:
 
 
+   virtual bool is_cringe();
 
-    bool is_cringe();
-
-    bool would_you_watch_it();
+   virtual bool would_you_watch_it();
 
 };
 
