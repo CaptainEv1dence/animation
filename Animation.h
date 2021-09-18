@@ -13,9 +13,10 @@
 
 
 class Animation {
+    Animation();
 protected:
 
-    string country_of_origin;
+    std::string country_of_origin;
 
     unsigned int for_idiots_percentage;
 
